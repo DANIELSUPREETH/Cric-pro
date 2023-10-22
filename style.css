@@ -1,0 +1,109 @@
+/* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap");
+
+body {
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom right;
+    overflow: hidden;
+}
+
+.logo {
+    position: fixed;
+    right: 6%;
+    top: 3%;
+}
+
+.container {
+    border: 1px solid transparent;
+    margin-left: 80px;
+    margin-top: 54px;
+    position: relative;
+}
+
+table {
+    width: 950px;
+    height: 200px;
+    text-align: start;
+    font-family: 'Georama', sans-serif;
+    background: white;
+    border-collapse: collapse;
+    box-shadow: -7px 1px 20px 0px rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+}
+
+.container h1 {
+    font-family: 'Georama', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.52);
+    font-weight: 600;
+}
+
+.container h3 {
+    color: #707070;
+    font-family: 'Georama', sans-serif;
+    margin-top: -25px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+td {
+    height: 40px;
+    font-size: larger;
+    font-family: 'Georama', sans-serif;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.one {
+    padding-left: 20px;
+}
+
+.two {
+    color: grey;
+}
+
+.three {
+    text-align: start;
+}
+
+#align {
+    text-align: center;
+}
+
+.four,
+.five {
+    text-align: center;
+}
+
+.six {
+    text-align: right;
+}
+
+.seven {
+    text-align: center;
+}
+
+#firstcol {
+    background: tomato;
+    color: white;
+    width: 24%;
+    font-family: 'Georama', sans-serif;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+.footer {
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: start;
+    padding: 10px 0; 
+    font-family: 'Georama', sans-serif;
+}
